@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table {
+        border: 3px solid black;
+      }
+      th,
+      td {
+        border: 3px solid black;
+        text-align: center;
+      }
+
+      .button {
+        margin-top: 5px;
+        border-color: white;
+      }
+      .form {
+        width: 30%;
+      }
+      .input {
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Kasir Sederhana</div>
+    <div class="Collumns">
+      <table>
+        <thead>
+          <tr>
+            <th>Kode</th>
+            <th>Nama Barang</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>A</td>
+            <td>10000</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>B</td>
+            <td>20000</td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>C</td>
+            <td>30000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <div class="input">Pesan Barang</div>
+        <tr>
+          <td>Masukkan Kode</td>
+          <td class="form">
+            <div class="form-group">
+              <label for="input"></label>
+              <input type="text" class="form-control" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Jumlah Barang</td>
+          <td class="form">
+            <div class="form-group">
+              <label for="input"></label>
+              <input type="text" class="form-control" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="button"><button>Pesan</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
